@@ -1,0 +1,8 @@
+# Mosquitto ACL starter template
+
+user homeassistant
+topic readwrite homeassistant/#
+
+user esp_device
+topic readwrite devices/esp/#
+topic read homeassistant/status
